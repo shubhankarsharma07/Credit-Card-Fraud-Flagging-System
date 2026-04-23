@@ -320,5 +320,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Inspired by industry-standard fraud detection practices
 - Built with Python data processing best practices
 - Designed for scalability and maintainability
-- 
+
 **Note**: This is a rule-based detection system intended for educational and development purposes. Production deployments should include additional security measures, machine learning models, and compliance with financial regulations (PCI DSS, GDPR, etc.).
