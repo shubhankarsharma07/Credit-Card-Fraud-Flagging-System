@@ -1,0 +1,19 @@
+2026-04-23 18:06:45,592 - INFO - ================================================================================
+2026-04-23 18:06:45,593 - INFO - STARTING CREDIT CARD FRAUD DETECTION PIPELINE
+2026-04-23 18:06:45,593 - INFO - ================================================================================
+2026-04-23 18:06:45,593 - INFO - Starting data ingestion from transaction_logs.csv
+2026-04-23 18:06:45,609 - INFO - Read 100 records from input file
+2026-04-23 18:06:45,690 - INFO - Data ingestion completed. Valid: 100, Invalid: 0
+2026-04-23 18:06:45,690 - INFO - Starting rule-based fraud detection...
+2026-04-23 18:06:45,851 - INFO - Flagged 43 transactions based on rules
+2026-04-23 18:06:45,852 - INFO - Processing risk scores...
+2026-04-23 18:06:45,852 - INFO - Risk scoring completed
+2026-04-23 18:06:45,852 - INFO - Initializing database...
+2026-04-23 18:06:46,250 - INFO - Database initialized successfully
+2026-04-23 18:06:46,250 - INFO - Storing flagged transactions in database...
+2026-04-23 18:06:46,269 - INFO - Stored 43 flagged transactions
+2026-04-23 18:06:46,269 - INFO - Generating daily fraud monitoring report...
+2026-04-23 18:06:46,270 - INFO - Report saved to daily_fraud_report.txt
+2026-04-23 18:06:46,270 - INFO - ================================================================================
+2026-04-23 18:06:46,270 - INFO - PIPELINE EXECUTION COMPLETED SUCCESSFULLY
+2026-04-23 18:06:46,270 - INFO - ================================================================================
